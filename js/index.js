@@ -11,7 +11,7 @@ doubleLine.addEventListener("click", actionDeLine)
 
 function actionDeCroix() {
     menu.style.width = "10%"
-    menu.style.transition = "all .5s ease-in-out"
+    menu.style.transition = "all 5s ease-in-out"
     menu.children[0].style.display = "flex"
     menu.children[0].style.textAlign = "center"
     menu.children[0].style.marginLeft = "2.5rem"
@@ -23,13 +23,13 @@ function actionDeCroix() {
     menu.children[5].style.display = "none"
         // gestion des élements en haut et en bas
     bottom.style.width = "40%"
-    bottom.style.transition = "all .5s ease-in-out"
+    bottom.style.transition = "all 5s ease-in-out"
     itemsTop.style.width = "40%"
-    itemsTop.style.transition = "all .5s ease-in-out"
+    itemsTop.style.transition = "all 5s ease-in-out"
 }
 
 function actionDeLine() {
-    menu.style.transition = "all .5s ease-in-out"
+    menu.style.transition = "all 5s ease-in-out"
     menu.style.width = "34%"
     menu.children[0].style.display = "none"
     menu.children[0].style.textAlign = "none"
@@ -42,7 +42,7 @@ function actionDeLine() {
     menu.children[5].style.display = "inline-block"
         // gestion des élements en haut et en bas
     bottom.style.width = "60%"
-    bottom.style.transition = "all .5s ease-in-out"
+    bottom.style.transition = "all 5s ease-in-out"
     itemsTop.style.width = "60%"
-    itemsTop.style.transition = "all .5s ease-in-out"
+    itemsTop.style.transition = "all 5s ease-in-out"
 }
